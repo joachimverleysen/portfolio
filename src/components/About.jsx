@@ -3,10 +3,13 @@ function About() {
     <div id="About">
       <ul className="about-items">
         <li>20 years old</li>
-        <li>Currently studying Computer Science (Ba2) at UAntwerpen</li>
+        <li>Currently studying Computer Science</li>
         <li>Piano</li>
         <li>Travel</li>
       </ul>
+      <div className="goto-btn">
+        <a href="#Projects">View Projects</a>
+      </div>
     </div>
   );
 }

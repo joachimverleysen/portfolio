@@ -8,7 +8,9 @@ function Navbar() {
         <a href="#About">
           <li>About</li>
         </a>
-        <li>Projects</li>
+        <a href="#Projects">
+          <li>Projects</li>
+        </a>
       </ul>
     </div>
   );
