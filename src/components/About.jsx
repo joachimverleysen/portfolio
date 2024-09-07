@@ -8,7 +8,7 @@ function About() {
         <li>Travel</li>
       </ul>
       <div className="goto-btn">
-        <a href="#Projects">View Projects</a>
+        <a href="#Projects">View coding projects</a>
       </div>
     </div>
   );

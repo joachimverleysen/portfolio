@@ -4,6 +4,19 @@
   scroll-behavior: smooth;
 }
 
+/* MEDIA QUERIES */
+
+@media (max-width: 670px) {
+  #Navbar {
+    justify-content: space-around;
+  }
+  #Profile {
+    flex-direction: column;
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+  }
+}
+
 /* INTERSECTION OBSERVER */
 
 .hidden {
@@ -40,13 +53,7 @@ a:hover {
 }
 
 /* PROFILE */
-@media (max-width: 670px) {
-  #Profile {
-    flex-direction: column;
-    margin-top: 20rem;
-    margin-bottom: 20rem;
-  }
-}
+
 #Profile {
   height: 80vh;
   display: flex;
