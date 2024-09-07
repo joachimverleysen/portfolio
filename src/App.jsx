@@ -1,10 +1,8 @@
-import { useState } from "react";
+import { useState, useRef, useEffect } from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import Header from "./components/profile/Header";
-import IntroText from "./components/profile/IntroText";
-import Profile from "./components/profile/Profile";
-import About from "./components/about/About";
+import Profile from "./components/Profile";
+import About from "./components/About";
 
 function App() {
   return (

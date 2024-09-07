@@ -4,10 +4,23 @@
   scroll-behavior: smooth;
 }
 
+/* INTERSECTION OBSERVER */
+
+.hidden {
+  opacity: 0;
+  transition: all 3s;
+}
+
+.show {
+  opacity: 1;
+}
+
+/* NAV */
+
 #Navbar {
   display: flex;
   align-items: center;
-  height: 5rem;
+  height: 10vh;
 }
 .nav-links {
   display: inline-flex;
@@ -25,18 +38,23 @@ a:hover {
   text-decoration: underline;
   text-underline-offset: 1rem;
 }
+
+/* PROFILE */
 #Profile {
-  margin-top: 3rem;
+  height: 80vh;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
 }
-#Header {
+.text-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.IntroText {
+.profile-pic-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -53,20 +71,22 @@ a:hover {
 .title {
   font-size: 100px;
   margin: 0rem;
+  text-align: center;
 }
 .section__text__p1 {
   font-size: 30px;
 }
 .icon {
   height: 5rem;
-  margin-top: 1rem;
+  margin-top: 3rem;
 }
-.picture__subtitle {
-  font-size: 30px;
-}
+
+/* ABOUT */
 #About {
-  margin-top: 30rem;
-  margin-bottom: 20rem;
+  justify-content: start;
+  margin-top: 5rem;
+  padding-top: 3rem;
+  min-height: 100vh;
 }
 .about-items li {
   margin-bottom: 2rem;

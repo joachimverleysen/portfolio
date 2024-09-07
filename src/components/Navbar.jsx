@@ -9,7 +9,6 @@ function Navbar() {
           <li>About</li>
         </a>
         <li>Projects</li>
-        <li>Travel</li>
       </ul>
     </div>
   );
