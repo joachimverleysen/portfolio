@@ -1,14 +1,15 @@
 function About() {
   return (
     <div id="About">
+      <h1>About me</h1>
       <ul className="about-items">
         <li>20 years old</li>
-        <li>Currently studying Computer Science</li>
-        <li>Piano</li>
-        <li>Travel</li>
+        <li>Studying Computer Science</li>
+        <li>I play the piano</li>
+        <li>I like to travel</li>
       </ul>
       <div className="goto-btn">
-        <a href="#Projects">View coding projects</a>
+        <a href="#Projects">Go to my coding projects</a>
       </div>
     </div>
   );
