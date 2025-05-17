@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 * {
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
@@ -48,73 +48,40 @@ a {
 
 a:hover {
   color: grey;
-  text-decoration: underline;
-  text-underline-offset: 1rem;
 }
 
-/* PROFILE */
-
-#Profile {
-  height: 80vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8rem;
-}
-.text-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.profile-pic-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.picture-text__p2 {
-  font-style: italic;
-  margin-bottom: 1rem;
-  margin-top: 2rem;
-}
-.profile-pic {
-  height: 30rem;
-}
-.title {
-  font-size: 100px;
-  margin: 0rem;
-  text-align: center;
-}
-.section__text__p1 {
-  font-size: 30px;
-}
-.icon {
-  height: 5rem;
-  margin-top: 3rem;
-}
-
-/* ABOUT */
-#About {
-  display: flex;
-  flex-direction: column;
+/* HOME */
+.hello-container {
   margin-top: 5rem;
-  padding-top: 3rem;
-  min-height: 80vh;
-}
-.about-items li {
-  margin-bottom: 2rem;
-  font-size: x-large;
-}
-
-.goto-btn {
-  font-size: x-large;
-  margin-left: 2rem;
+  color: green;
+  display: grid;
+  grid-template-columns: auto auto; /* 2 gelijke kolommen */
+  gap: 10px; /* optioneel, ruimte tussen de kolommen */
+  width: 100%; /* of een vaste breedte als je wil */
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
 }
 
-.goto-btn a {
-  color: blue;
-  font-style: oblique;
+.hello-message {
+  width: 4rem;
+  font-size: xx-large;
+}
+
+.hover:hover {
+  cursor: pointer;
+}
+
+.hello-message:hover {
+  color: black;
+  user-select: none;
+}
+
+.clickme-btn {
+  box-sizing: content-box;
+  width: 200px;
+  height: 50px;
+  font-size: xx-large;
 }
 
 /* PROJECTS */

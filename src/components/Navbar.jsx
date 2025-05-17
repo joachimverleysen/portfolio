@@ -5,10 +5,7 @@ function Navbar() {
         <a href="/">
           <li>Home</li>
         </a>
-        <a href="#About">
-          <li>About</li>
-        </a>
-        <a href="#Projects">
+        <a href="/Projects">
           <li>Projects</li>
         </a>
       </ul>
